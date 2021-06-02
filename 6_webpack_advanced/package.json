@@ -1,7 +1,7 @@
 {
-  "name": "3_webpack_modes",
+  "name": "3_webpack_advanced",
   "version": "1.0.0",
-  "description": "Webpack Modes",
+  "description": "Webpack Advanced",
   "main": "index.js",
   "author": "André Malta",
   "license": "MIT",
@@ -10,8 +10,7 @@
     "webpack-cli": "^4.7.0"
   },
   "scripts": {
-    "dev": "webpack serve --config webpack.config.dev.js",
-    "prod": "webpack --config webpack.config.prod.js"
+    "dev": "webpack"
   },
   "devDependencies": {
     "html-webpack-plugin": "^5.3.1",
