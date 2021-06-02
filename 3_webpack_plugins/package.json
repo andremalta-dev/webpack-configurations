@@ -1,0 +1,24 @@
+{
+  "name": "3_webpack_plugins",
+  "version": "1.0.0",
+  "description": "Webpack Plugins",
+  "main": "index.js",
+  "author": "André Malta",
+  "license": "MIT",
+  "dependencies": {
+    "webpack": "^5.38.1",
+    "webpack-cli": "^4.7.0"
+  },
+  "scripts": {
+    "build": "webpack"
+  },
+  "devDependencies": {
+    "clean-webpack-plugin": "^4.0.0-alpha.0",
+    "css-loader": "^5.2.6",
+    "dotenv-webpack": "^7.0.2",
+    "html-webpack-plugin": "^5.3.1",
+    "mini-css-extract-plugin": "^1.6.0",
+    "style-loader": "^2.0.0",
+    "terser-webpack-plugin": "^5.1.3"
+  }
+}
